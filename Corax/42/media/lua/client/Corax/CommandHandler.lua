@@ -1,4 +1,4 @@
-local Commands = require "Corax/ClientCommands"
+local Commands = require "Corax/Commands"
 
 local function handleServerCommand(module, command, args)
     if module ~= "Corax" then return end
